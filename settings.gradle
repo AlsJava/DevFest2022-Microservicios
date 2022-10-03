@@ -1,0 +1,6 @@
+rootProject.name = 'DevFest2022-Microservicios'
+include 'DiscoveryService'
+include 'ConfigurationService'
+include 'ServiceA'
+include 'ServiceA-sharelib'
+
