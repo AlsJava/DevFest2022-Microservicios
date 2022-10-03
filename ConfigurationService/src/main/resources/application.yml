@@ -1,0 +1,18 @@
+server.port: 8001
+
+spring:
+  application.name: configuration-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://${user.dir}/Configuration
+          default-label: main
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7001/eureka
+    registryFetchIntervalSeconds: 1
+  instance:
+    leaseRenewalIntervalInSeconds: 1
