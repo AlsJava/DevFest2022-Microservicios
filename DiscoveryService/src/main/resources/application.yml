@@ -1,0 +1,19 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: discovery-service
+
+eureka:
+  instance:
+    hostname: localhost
+    leaseRenewalIntervalInSeconds: 2
+    leaseExpirationDurationInSeconds: 2
+  server:
+    evictionIntervalTimerInMs: 1000
+    response-cache-update-interval-ms: 1000
+  client:
+    enabled: true
+    registerWithEureka: false
+    fetchRegistry: false
