@@ -32,4 +32,11 @@ public class User {
                 .name(name)
                 .build();
     }
+
+    public String describe() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

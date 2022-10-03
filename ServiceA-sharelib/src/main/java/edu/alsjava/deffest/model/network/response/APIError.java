@@ -7,8 +7,8 @@ import lombok.*;
 @Builder
 @Getter
 @Setter
-public class ErrorResponse {
+public class APIError {
 
-    private Long errorCode;
-    private String description;
+    private int status;
+    private String message;
 }
