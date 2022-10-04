@@ -1,0 +1,31 @@
+server:
+  port: 8090
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,beans
+
+pattern:
+  saga:
+    timeout: 60
+
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create
+    database-platform: org.hibernate.dialect.H2Dialect
+  datasource:
+    url: jdbc:h2:mem:Demo
+    driverClassName: org.h2.Driver
+    username: demo
+    password:
+
+eureka:
+  instance:
+    hostname: localhost
