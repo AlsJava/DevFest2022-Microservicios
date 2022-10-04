@@ -3,7 +3,7 @@ package edu.alsjava.deffest.service;
 import edu.alsjava.deffest.command.CreateUserCommand;
 import edu.alsjava.deffest.model.network.request.CreateUserRequest;
 import edu.alsjava.deffest.model.network.response.CreateUserResponse;
-import edu.alsjava.deffest.patterns.command.CommandBus;
+import edu.alsjava.deffest.pattern.command.CommandBus;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

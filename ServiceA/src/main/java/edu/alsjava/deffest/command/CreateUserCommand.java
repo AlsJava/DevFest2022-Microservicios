@@ -1,7 +1,7 @@
 package edu.alsjava.deffest.command;
 
 import edu.alsjava.deffest.model.network.response.CreateUserResponse;
-import edu.alsjava.deffest.patterns.command.Command;
+import edu.alsjava.deffest.pattern.command.Command;
 import lombok.*;
 
 @AllArgsConstructor
