@@ -12,6 +12,8 @@ repositories {
 }
 
 dependencies {
+    implementation("org.springframework.boot:spring-boot-starter-json")
+    implementation("org.springframework.integration:spring-integration-core")
     implementation("org.springframework.boot:spring-boot-starter-validation")
     implementation("org.springframework.boot:spring-boot-starter-logging")
     compileOnly("org.projectlombok:lombok:$lombokVersion")
