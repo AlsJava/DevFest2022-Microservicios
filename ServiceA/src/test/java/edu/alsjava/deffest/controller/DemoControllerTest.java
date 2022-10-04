@@ -3,6 +3,7 @@ package edu.alsjava.deffest.controller;
 import edu.alsjava.deffest.model.network.request.CreateUserRequest;
 import edu.alsjava.deffest.model.network.response.CreateUserResponse;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -26,6 +27,7 @@ class DemoControllerTest {
         this.webClient = builder.baseUrl("http://localhost:8090/demo").build();
     }
 
+    @Tag("Network")
     @Test
     void demoTest() {
         CreateUserRequest createUserRequest = CreateUserRequest.builder()
