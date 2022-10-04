@@ -9,6 +9,7 @@ import javax.validation.constraints.NotBlank;
 @Builder
 @Getter
 @Setter
+@ToString
 public class CreateUserRequest {
 
     @NotBlank

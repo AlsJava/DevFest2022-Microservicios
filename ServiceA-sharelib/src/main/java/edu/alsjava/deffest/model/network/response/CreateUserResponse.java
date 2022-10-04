@@ -8,6 +8,7 @@ import lombok.*;
 @Builder
 @Getter
 @Setter
+@ToString
 public class CreateUserResponse {
 
     private UserDto user;
