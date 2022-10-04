@@ -1,7 +1,9 @@
 package edu.alsjava.deffest.controller;
 
 
+import edu.alsjava.deffest.model.network.request.CalculateFactorialRequest;
 import edu.alsjava.deffest.model.network.request.CreateUserRequest;
+import edu.alsjava.deffest.model.network.response.CalculateFactorialResponse;
 import edu.alsjava.deffest.model.network.response.CreateUserResponse;
 import edu.alsjava.deffest.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -21,6 +23,11 @@ public class DemoController {
     @PostMapping("/create")
     public ResponseEntity<CreateUserResponse> get(@Valid @RequestBody CreateUserRequest createUserRequest) {
         return ResponseEntity.ok(userService.createUser(createUserRequest));
+    }
+
+    @PostMapping("/factorial")
+    public ResponseEntity<CalculateFactorialResponse> calculateFactorial(@Valid @RequestBody CalculateFactorialRequest calculateFactorialRequest) {
+        return ResponseEntity.ok(userService.calculateFactorial(calculateFactorialRequest));
     }
 
 }
