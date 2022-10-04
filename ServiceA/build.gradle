@@ -12,6 +12,7 @@ repositories {
 }
 
 dependencies {
+    implementation project(':Common')
     implementation project(':ServiceA-sharelib')
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-logging")

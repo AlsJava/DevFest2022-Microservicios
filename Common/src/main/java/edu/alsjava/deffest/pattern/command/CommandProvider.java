@@ -1,4 +1,4 @@
-package edu.alsjava.deffest.patterns.command;
+package edu.alsjava.deffest.pattern.command;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;

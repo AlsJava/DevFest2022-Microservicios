@@ -1,7 +1,6 @@
 package edu.alsjava.deffest.util;
 
 import edu.alsjava.deffest.model.exception.ErrorSavingUserException;
-import edu.alsjava.deffest.model.network.response.APIError;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

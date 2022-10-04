@@ -1,4 +1,4 @@
-package edu.alsjava.deffest.patterns.command;
+package edu.alsjava.deffest.pattern.command;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

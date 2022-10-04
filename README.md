@@ -4,3 +4,6 @@
 [![Spring-Boot](https://img.shields.io/badge/Spring%20Boot-2.7.4-green.svg?style=flat&logo=Springt&logoColor=white)](https://spring.io/projects/spring-boot)
 
 
+
+# Logs
+- https://dzone.com/articles/centralized-logging

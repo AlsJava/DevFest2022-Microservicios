@@ -1,4 +1,4 @@
-package edu.alsjava.deffest.model.network.response;
+package edu.alsjava.deffest.model.network;
 
 import lombok.*;
 

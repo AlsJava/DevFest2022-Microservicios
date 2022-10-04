@@ -1,4 +1,4 @@
-package edu.alsjava.deffest.patterns.command;
+package edu.alsjava.deffest.pattern.command;
 
 public interface CommandHandler<R, C extends Command<R>> {
 

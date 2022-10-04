@@ -3,4 +3,5 @@ include 'DiscoveryService'
 include 'ConfigurationService'
 include 'ServiceA'
 include 'ServiceA-sharelib'
+include 'Common'
 
